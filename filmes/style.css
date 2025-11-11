@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+header {    
+    background: linear-gradient(to left, #610b0b, rgb(0, 0, 0));
+    border-bottom: solid 3px;
+    border-color: rgb(100, 0, 0);
+    padding: 13px; 
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start;    
+    height: 37px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    justify-content: flex-start; 
+    padding-top: 110px;       
+}
+
+section {
+    background: linear-gradient(to right, rgb(97, 11, 11), rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    height: 450px;
+    gap: 35px;
+    box-shadow: 0px 10px 10px 10px rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+img{
+    width: 150px;
+    border-radius: 5px;
+}
+
+h3{
+    color: white;
+}
+h4{
+    margin-top: 1px;
+    color: white;
+    font-weight: normal;
+}
+
+a{
+    margin-top: -20px;
+    text-decoration: none;
+}
+
+div a {
+    display: block;    
+    width: 200px;       
+    text-align: center;  
+    margin-top: 8px;     
+    text-decoration: none;
+    color: #e50914;
+    font-weight: bold;
+    background: rgba(255,255,255,0.07);
+    padding: 6px 0;
+    border-radius: 10px;
+}
+div a:hover {
+    background: #e50914;
+    color: white;
+}
+
+#invisivel{
+    visibility: hidden;
+    pointer-events: none;
+}
+
+h2{color: white;}
+
+#sobre{
+    margin-left: 90%;
+    padding: 30px;
+    text-decoration: none;
+    color: #191616c7;
+    font-size: 20px;
+}   
