@@ -14,6 +14,10 @@ header {
     height: 50px;
 }
 
+.menu {
+    width: 100%;
+}
+
 .menu ul {
     list-style: none;
     margin: 0;
@@ -25,9 +29,24 @@ header {
     margin-left: 20px;
 }
 
+.menu li:last-child {
+    margin-left: auto;
+}
+
 .menu a {
     text-decoration: none;
     color: grey;
+}
+
+.menu .logo a {
+    display: flex;
+    align-items: center;
+}
+
+.menu .logo img {
+    height: 28px;
+    width: auto;
+    border: 0;
 }
 
 .conteudo {
