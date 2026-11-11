@@ -77,7 +77,7 @@ div a {
     border-radius: 10px;                    
 }
 
-#invisivel {
+.invisivel {
     visibility: hidden;                     /* Fica invisível, mas ocupa espaço */
     pointer-events: none;                   /* Impede interação com o elemento */
 }
